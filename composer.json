@@ -1,0 +1,37 @@
+{
+  "name": "cdcchen/psr3-log",
+  "type": "library",
+  "description": "PSR-3 Log",
+  "keywords": [
+    "psr3",
+    "logger",
+    "log"
+  ],
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Dong Chen",
+      "email": "cdcchen@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "psr/log": "~1.0"
+  },
+  "provide": {
+    "psr/log": "1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "cdcchen\\psr3\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^3.1"
+  }
+}
